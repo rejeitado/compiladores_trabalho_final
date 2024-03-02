@@ -28,25 +28,20 @@
 * Aceitamos apenas as condicionais que seja == e !=.<br />
 * Aceitamos if e while desde que contenham abre e fecha parênteses, abre e fecha chaves, quebra de linha após o abre chaves e depois do fecha chaves e espaço após a primeira a quebra da primeira linha.<br />
 
-# Tokens: (foram adicionados entre "")<br/>
-* "==" <br/>
-* "!=" <br/>
-* "if" <br/>
-* "while" <br/>
-* "*" <br/>
-* "+" <br/>
-* "-" <br/>
-* "=" <br/>
-* "(" <br/>
-* ")" <br/>
-* ":" <br/>
-* "{" <br/>
-* "}" <br/>
-* ";" <br/>
-* "int" <br/>
-* "char" <br/>
+# Expressão regular: <br/>
+* BRANCO [ ] <br/>
+* DIGITO [0 - 9] <br/>
+* NUMERO {DIGITO}+ <br/>
+* LETRA [A-Za-z] <br/>
+* STRING \”[^”]*\” <br/>
+* IDENTIFICADOR {LETRA}+ <br/>
+* ESPACO {BRANCO}+ <br/>
 
-# Comandos DEF, IF e While presente na documentação e no codigo "c.y" <br/>
+# Presente na documentação e código: <br/>
+* Tokens
+* DEF
+* IF
+* WHILE
 
 # Compilar: <br/>
 * Para executar, usando o terminal, digite o comando “flex c.l” para gerar o código-fonte do analisador léxico, que contém as regras de análise léxica escritas na linguagem Lex/Flex.<br /> 
