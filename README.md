@@ -46,10 +46,7 @@
 * "int" <br/>
 * "char" <br/>
 
-# Comandos IF e While presente na documentação e no codigo c.y
-
-
-
+# Comandos DEF, IF e While presente na documentação e no codigo "c.y" <br/>
 
 # Compilar: <br/>
 * Para executar, usando o terminal, digite o comando “flex c.l” para gerar o código-fonte do analisador léxico, que contém as regras de análise léxica escritas na linguagem Lex/Flex.<br /> 
